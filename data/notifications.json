@@ -1,0 +1,50 @@
+[
+    {
+        "notification_title": "Notify 1",
+        "notification_message": "Message",
+        "notification_url": "String",
+        "notification_criteria": [
+            {
+                "parameter": "device",
+                "value": "mobile",
+                "condition": "=",
+                "conjunction": "and"
+            },
+            {
+                "parameter": "custom_parameter_age",
+                "value": 22,
+                "condition": ">",
+                "conjunction": "and"
+            }
+        ],
+        "site_id": 488
+    },
+    {
+        "notification_title": "Notify 2",
+        "notification_message": "Message",
+        "notification_url": "String",
+        "notification_criteria": [
+            {
+                "parameter": "device",
+                "value": "mobile",
+                "condition": "=",
+                "conjunction": "and"
+            }
+        ],
+        "site_id": 488
+    },
+    {
+        "notification_title": "Notify 3",
+        "notification_message": "Message",
+        "notification_url": "String",
+        "notification_criteria": [
+            {
+                "parameter": "browser_name",
+                "value": "chrome",
+                "condition": "=",
+                "conjunction": "and"
+            }
+        ],
+        "site_id": 488
+    }
+]
